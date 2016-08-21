@@ -37,15 +37,15 @@
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+		<!--nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'dyad' ); ?></button>
-			<?php wp_nav_menu( array(
+			<?php/* wp_nav_menu( array(
 				'theme_location' => 'primary',
 				'menu_id' => 'primary-menu',
 				'container' => 'div',
 				'container_class' => 'primary-menu',
-			) ); ?>
-		</nav>
+			) ); */?>
+		</nav-->
 
 	</header><!-- #masthead -->
 
