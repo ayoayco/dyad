@@ -4505,3 +4505,13 @@ object {
 		margin-left: 0;
 	}
 }
+
+
+.pageblock {
+	width: 50%;
+	min-height: 200px;
+	background-color: white;
+	border: 2px solid black;
+	display: block;
+	float: left;
+}

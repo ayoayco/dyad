@@ -15,24 +15,41 @@ get_header(); ?>
 
 	<main id="primary" class="content-area" role="main">
 
-		<?php if ( have_posts() ) : ?>
+	<?php $args = array(
+		'sort_order' => 'asc',
+		'sort_column' => 'post_title',
+		'hierarchical' => 1,
+		'exclude' => '',
+		'include' => '4, 6, 8, 10, 12, 14',
+		'meta_key' => '',
+		'meta_value' => '',
+		'authors' => '',
+		'child_of' => 0,
+		'parent' => -1,
+		'exclude_tree' => '',
+		'number' => '',
+		'offset' => 0,
+		'post_type' => 'page',
+		'post_status' => 'publish'
+	); 
+	$pages = get_pages($args); 
+	?>
+
+		<?php if ( $pages ) : ?>
 
 			<div id="posts" class="posts">
 
 				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php foreach($pages as &$page){ ?>
 
-					<?php
+				<div class = "pageblock">
+				<a href="<?php echo get_page_link( $page->ID )?>"><?php
+					echo $page->post_title
+				?></a>
+				
+				</div>
 
-						/*
-						 * Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'template-parts/content', 'blocks' );
-					?>
-
-				<?php endwhile; ?>
+				<?php }?>
 
 			</div><!-- .posts -->
 
