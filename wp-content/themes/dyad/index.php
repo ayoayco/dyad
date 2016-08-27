@@ -37,11 +37,11 @@ get_header(); ?>
 
 		<?php if ( $pages ) : ?>
 
-			<div id="posts" class="posts">
+			<div id="posts" class="posts" style="padding: 15px">
 
 				<?php /* Start the Loop */ ?>
 				<?php foreach($pages as &$page){ ?>
-
+				
 				<div class = "pageblock">
 				<a href="<?php echo get_page_link( $page->ID )?>"><?php
 					echo $page->post_title

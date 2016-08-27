@@ -54,5 +54,7 @@
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/dyad.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery-3.1.0.min.js"></script>
 </body>
 </html>
