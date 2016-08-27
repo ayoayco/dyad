@@ -4515,3 +4515,7 @@ object {
 	display: block;
 	float: left;
 }
+
+div#posts {
+	padding: 15px;
+}
