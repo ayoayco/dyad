@@ -17,7 +17,7 @@ get_header(); ?>
 
 	<?php $args = array(
 		'sort_order' => 'asc',
-		'sort_column' => 'post_title',
+		'sort_column' => 'ID',
 		'hierarchical' => 1,
 		'exclude' => '',
 		'include' => '4, 6, 8, 10, 12, 14',
