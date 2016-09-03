@@ -20,7 +20,7 @@ get_header(); ?>
 		'sort_column' => 'ID',
 		'hierarchical' => 1,
 		'exclude' => '',
-		'include' => '4, 6, 8, 10, 12, 14',
+		'include' => '4, 6, 8, 10, 12, 14, 94',
 		'meta_key' => '',
 		'meta_value' => '',
 		'authors' => '',
@@ -50,6 +50,9 @@ get_header(); ?>
 				</div>
 
 				<?php }?>
+				<div class = "pageblock">
+				<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ) ?>">Wiki</a>
+				</div>
 
 			</div><!-- .posts -->
 
