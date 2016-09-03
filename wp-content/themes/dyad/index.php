@@ -42,17 +42,26 @@ get_header(); ?>
 				<?php /* Start the Loop */ ?>
 				<?php foreach($pages as &$page){ ?>
 				
-				<div class = "pageblock">
-				<a href="<?php echo get_page_link( $page->ID )?>"><?php
-					echo $page->post_title
-				?></a>
-				
-				</div>
+
+				<?php
+				$thumb = $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' );
+				?>
+				<a href="<?php echo get_page_link( $page->ID )?>">
+					<div class = "pageblock shadow" style="background: white url('<?php echo $thumb[0]?>') no-repeat bottom left;">
+					<h3><?php
+						echo $page->post_title
+					?></h3>
+					</div>
+				</a>
 
 				<?php }?>
-				<div class = "pageblock">
-				<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ) ?>">Wiki</a>
-				</div>
+
+
+				<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ) ?>">
+					<div class = "pageblock shadow">
+						<h3>Wiki</h3>
+					</div>
+				</a>
 
 			</div><!-- .posts -->
 
