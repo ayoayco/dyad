@@ -6,12 +6,12 @@ main#primary {
 
 div#homepage-inner-content{
 	width: 1000px;
-	min-height: 670px;
+	min-height: 970px;
 	margin: 0 auto;
 }
 div#homepage-content{
 	width: 100%;
-    background-color: #242629;
+    background-color: #fafafa;
 }
 
 .homepage-posts {
@@ -25,7 +25,8 @@ div#homepage-content{
 	background: white;
 	min-height: 500px;
 	margin-top: 20px;
-	border: 1px solid #333;
+    border-radius: 5px;
+    border: solid 1px #86c6dd;
 	display: block;
 	padding: 20px;
 }
@@ -35,19 +36,14 @@ div#homepage-content{
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
-.pageblock a {
-	color: black;
-}
-
 .pageblock {
 	width: calc(50% - 10px);
-	min-height: 200px;
-	background-color: white;
-	border: 1px solid #333;
-	display: block;
+	min-height: 300px;
+	background-color: #dedede;
+    border-radius: 5px;
+    border: solid 1px #86c6dd;	display: block;
 	float: left;
 	margin: 5px;
-	padding: 20px;
 	background-size: cover !important;
 	opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
@@ -58,9 +54,21 @@ div#posts {
 }
 
 .shadow {
-   -moz-box-shadow:    inset 0 0 10px #333;
-   -webkit-box-shadow: inset 0 0 10px #333;
-   box-shadow:         inset 0 0 10px #333;
+   -moz-box-shadow:    inset 0 0 10px  #86c6dd;;
+   -webkit-box-shadow: inset 0 0 10px  #86c6dd;;
+   box-shadow:         inset 0 0 10px  #86c6dd;;
+}
+
+.brickmenuimg {
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.brickcontent {
+	padding: 20px;
 }
 
 /*
@@ -1621,7 +1629,7 @@ footer.comment-footer:after,
 /* Grid of posts */
 
 .posts {
-	background-color: #242629;
+	background-color: #fafafa;
 }
 
 .posts .hentry {

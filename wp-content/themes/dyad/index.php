@@ -48,10 +48,13 @@ get_header(); ?>
 						$thumb = $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' );
 						?>
 						<a href="<?php echo get_page_link( $page->ID )?>">
-							<div class = "pageblock shadow" style="background: white url('<?php echo $thumb[0]?>') no-repeat bottom left;">
-							<h3><?php
-								echo $page->post_title
-							?></h3>
+							<div class = "pageblock shadow">
+								<div class="brickmenuimg" style="background: #dedede url('<?php echo $thumb[0]?>') no-repeat bottom left";></div>
+								<div class="brickcontent">
+									<h3><?php
+										echo $page->post_title
+									?></h3>
+								</div>
 							</div>
 						</a>
 
