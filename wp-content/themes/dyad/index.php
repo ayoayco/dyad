@@ -35,40 +35,41 @@ get_header(); ?>
 	$pages = get_pages($args); 
 	?>
 		<div id="homepage-content">
-			<?php if ( $pages ) : ?>
+			<div id="homepage-inner-content">
+				<?php if ( $pages ) : ?>
 
-				<div id="posts" class="posts homepage-posts" style="padding: 15px">
+					<div id="posts" class="posts homepage-posts" style="padding: 15px">
 
-					<?php /* Start the Loop */ ?>
-					<?php foreach($pages as &$page){ ?>
-					
+						<?php /* Start the Loop */ ?>
+						<?php foreach($pages as &$page){ ?>
+						
 
-					<?php
-					$thumb = $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' );
-					?>
-					<a href="<?php echo get_page_link( $page->ID )?>">
-						<div class = "pageblock shadow" style="background: white url('<?php echo $thumb[0]?>') no-repeat bottom left;">
-						<h3><?php
-							echo $page->post_title
-						?></h3>
-						</div>
-					</a>
+						<?php
+						$thumb = $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' );
+						?>
+						<a href="<?php echo get_page_link( $page->ID )?>">
+							<div class = "pageblock shadow" style="background: white url('<?php echo $thumb[0]?>') no-repeat bottom left;">
+							<h3><?php
+								echo $page->post_title
+							?></h3>
+							</div>
+						</a>
 
-					<?php }?>
+						<?php }?>
 
-				</div><!-- .posts -->
+					</div><!-- .posts -->
 
-				<div class="homepage-sidebar shadow">
-					<h3>Wiki</h3>
-					<h3>FAQs</h3>
-				</div><!-- .homepage-sidebar -->
+					<div class="homepage-sidebar shadow">
+						<h3>Wiki</h3>
+						<h3>FAQs</h3>
+					</div><!-- .homepage-sidebar -->
 
-				<?php the_posts_navigation(); ?>
+					<?php the_posts_navigation(); ?>
 
-			<?php else : ?>
+				<?php else : ?>
 
-			<?php endif; ?>
-		
+				<?php endif; ?>
+			</div
 		</div>
 	</main><!-- #main -->
 
