@@ -9,17 +9,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php if ( has_post_thumbnail() ) : ?>
-		<?php
-		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'dyad-featured-image' );
-		$thumb2 = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'dyad-featured-image-horz' );
-		?>
-
-		<div class="entry-media" style="background-image: url(<?php echo esc_url( $thumb['0'] ); ?>)">
-			<div class="entry-media-thumb" style="background-image: url(<?php echo esc_url( $thumb2['0'] ); ?>); "></div>
-		</div><!-- .entry-media -->
-	<?php endif; ?>
-
 	<div class="entry-inner">
 
 		<header class="entry-header">
