@@ -1196,7 +1196,7 @@ footer.comment-footer:after,
 }
 
 .site-banner-header {
-	bottom: 6rem;
+	bottom: 12rem;
 	color: #fff;
 	left: 25%;
 	opacity: 1.0;
@@ -1326,7 +1326,7 @@ footer.comment-footer:after,
 }
 
 .banner-custom-header .site-banner-header h1:before {
-	background-color: #678db8;
+	background-color: #2086d0;
 	content: "";
 	display: block;
 	height: 8px;
