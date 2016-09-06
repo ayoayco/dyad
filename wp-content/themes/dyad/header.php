@@ -24,17 +24,11 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<?php
-			if ( function_exists( 'jetpack_the_site_logo' ) ) {
-				jetpack_the_site_logo();
-			}
-			?>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
+					<?php /* put logos here */ ?>
 				</a>
 			</h1>
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

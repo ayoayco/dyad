@@ -14,10 +14,15 @@ main#primary {
 	width: 100%;
 }
 
-.site-title, .site-branding a, .site-branding a:hover, .site-branding a:focus, .site-branding a:active {
+.site-description {
 	font-family: 'Mohave', Arial, sans-serif;
+	font-size: 40px;
+	margin-top: -30px;
 }
 
+.banner-custom-header .site-banner-header h1:after {
+	content: ':';
+}
 .banner-custom-header .site-banner-header h1 {
 	font-family: 'Mohave', Arial, sans-serif;
 	font-size: 60px !important;
@@ -1227,15 +1232,6 @@ footer.comment-footer:after,
 	opacity: 0.5;
 }
 
-.site-banner-header:before,
-.site-banner-header:after {
-	border-top: 1px solid rgba(255,255,255,0.5);
-	content: "";
-	display: block;
-	margin: 0 auto;
-	position: absolute;
-}
-
 .site-banner-header:before {
 	left: 25%;
 	top: 0;
@@ -1302,7 +1298,7 @@ footer.comment-footer:after,
 }
 
 .site-banner p {
-	padding-bottom: 2.5em;
+	padding-bottom: 0px;
 }
 
 .site-banner.too-tall p {
@@ -1338,22 +1334,6 @@ footer.comment-footer:after,
 
 .banner-custom-header .site-banner-header h1 {
 	padding-bottom: 0;
-}
-
-.banner-custom-header .site-banner-header h1:before {
-	background-color: #2086d0;
-	content: "";
-	display: block;
-	height: 8px;
-	left: 50%;
-	margin: -4px 0 0 -60px;
-	position: absolute;
-	top: 0;
-	width: 120px;
-}
-
-.banner-custom-header .site-banner-header.hide-deco h1:before {
-	display: none;
 }
 
 
