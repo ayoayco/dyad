@@ -85,6 +85,14 @@ div#homepage-content{
 	background: url('images/chapter6-min.jpg') no-repeat;
 	background-size: cover;
 }
+.homepage-posts a.chapter7 div.pageblock{
+	background: url('images/chapter6-min.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter8 div.pageblock{
+	background: url('images/chapter6-min.jpg') no-repeat;
+	background-size: cover;
+}
 
 .homepage-posts {
 	float: left;
