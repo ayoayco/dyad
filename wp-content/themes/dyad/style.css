@@ -1,14 +1,27 @@
 /* customized by: ayo ayco*/
 
+@font-face {
+	font-family: 'Mohave';
+	src: url('fonts/Mohave.eot');
+	src: url('fonts/Mohave.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Mohave.woff') format('woff'),
+		url('fonts/Mohave.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 main#primary {
 	width: 100%;
 }
 
-/* temporary start */
-.banner-description {
+.site-title, .site-branding a, .site-branding a:hover, .site-branding a:focus, .site-branding a:active {
+	font-family: 'Mohave', Arial, sans-serif;
 }
 
-/* temporary end */
+.banner-custom-header .site-banner-header h1 {
+	font-family: 'Mohave', Arial, sans-serif;
+	font-size: 60px !important;
+}
 
 .site-banner-inner {
 	background: url('images/cover.jpg') no-repeat;
@@ -94,6 +107,8 @@ div#homepage-content{
 }
 
 .pageblock-label {
+	font-family: 'Mohave', Arial, sans-serif;
+	font-size: 35px !important;
 	text-align: center;
 	color: #fefefe;
 	padding-top: 70px;
