@@ -38,7 +38,6 @@ main#primary {
 
 div#homepage-inner-content{
 	width: 100%;
-	min-height: 970px;
 	margin: 0 auto;
 }
 div#homepage-content{
@@ -85,8 +84,7 @@ div#homepage-content{
 
 .pageblock {
 	width: calc(50% - 10px);
-	min-height: 300px;
-	border: 1px black solid;
+	min-height: 200px;
 	background-color: #dedede;
 	float: left;
 	background-size: cover !important;
