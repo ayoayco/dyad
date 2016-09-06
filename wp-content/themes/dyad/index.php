@@ -46,18 +46,13 @@ get_header(); ?>
 						<?php foreach($pages as &$page){ ?>
 						<a href="<?php echo get_page_link( $page->ID )?>" class="<?php echo "chapter".$counter?>">
 							<div class = "pageblock">
+								<h3 class="pageblock-label"><?php echo $page->post_title ?></h3>
 							</div>
 						</a>
 
 						<?php $counter++; }?>
+						
 					</div><!-- .posts -->
-
-						<div id="wikifaq"></div>
-					<!--<div class="homepage-sidebar shadow">
-						<h3>Wiki</h3>
-						<h3>FAQs</h3>
-					</div>-->
-
 					<?php the_posts_navigation(); ?>
 
 				<?php else : ?>

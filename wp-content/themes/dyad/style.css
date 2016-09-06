@@ -6,13 +6,12 @@ main#primary {
 
 /* temporary start */
 .banner-description {
-	display: none;
 }
 
 /* temporary end */
 
 .site-banner-inner {
-	background: url('images/cover-bg.jpg') no-repeat;
+	background: url('images/cover.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -92,6 +91,12 @@ div#homepage-content{
     filter: alpha(opacity=80); /* For IE8 and earlier */
 	min-width: 50%;
 	width: 50%;
+}
+
+.pageblock-label {
+	text-align: center;
+	color: #fefefe;
+	padding-top: 70px;
 }
 
 .brickmenuimg {
