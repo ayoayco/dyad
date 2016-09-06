@@ -94,17 +94,17 @@ div#homepage-content{
 .pageblock:hover {
     background: #f0f5f6;
     border-color: #009fd6;
-    -moz-box-shadow: 0 0 24px -6px #444;
-    -webkit-box-shadow: 0 0 24px -6px #444;
-    box-shadow: 0 0 24px -6px #444;
+    -moz-box-shadow: 0 0 50px -6px #444;
+    -webkit-box-shadow: 0 0 50px -6px #444;
+    box-shadow: 0 0 50px -6px #444;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .pageblock {
 	min-height: 198px;
 	background-color: #dedede;
 	float: left;
-	opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
 	width: 50%;
 }
 
