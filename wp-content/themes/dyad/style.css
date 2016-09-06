@@ -13,7 +13,7 @@ main#primary {
 
 .site-banner-inner {
 	background: url('images/cover-bg.jpg') no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 .site-header {
