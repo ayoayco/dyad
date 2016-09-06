@@ -19,8 +19,7 @@ get_header(); ?>
 		'sort_order' => 'asc',
 		'sort_column' => 'ID',
 		'hierarchical' => 1,
-		'exclude' => '',
-		'include' => '4, 6, 8, 10, 12, 14',
+		'include' => '4, 6, 8, 10, 12, 14, 250, 252',
 		'meta_key' => '',
 		'meta_value' => '',
 		'authors' => '',
@@ -46,7 +45,7 @@ get_header(); ?>
 						<?php foreach($pages as &$page){ ?>
 						<a href="<?php echo get_page_link( $page->ID )?>" class="<?php echo "chapter".$counter?>">
 							<div class = "pageblock">
-								<h3 class="pageblock-label"><?php echo $page->post_title ?></h3>
+								<h3 class="pageblock-label"><?php echo /*$page->ID." : ". */$page->post_title ?></h3>
 							</div>
 						</a>
 
