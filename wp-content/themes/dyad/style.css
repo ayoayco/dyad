@@ -4,31 +4,75 @@ main#primary {
 	width: 100%;
 }
 
+/* temporary start */
+.banner-description {
+	display: none;
+}
+
+/* temporary end */
+
+.site-banner-inner {
+	background: url('images/cover-bg.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.site-header {
+	background-color: #2086d0;
+	color: #fff;
+	display: table;
+	left: 0;
+	min-height: 90px;
+	padding: 15px 40px;
+	position: fixed;
+	right: 0;
+	text-shadow: 0 0 3px rgba(0,0,0,0.3);
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+.home .site-header,
+.blog .site-header {
+	background-color: #2086d0;
+}
+
 div#homepage-inner-content{
-	width: 1000px;
+	width: 100%;
 	min-height: 970px;
 	margin: 0 auto;
 }
 div#homepage-content{
 	width: 100%;
-    background-color: #fafafa;
+}
+
+.homepage-posts a.chapter1 div.pageblock{
+	background: url('images/chapter1.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter2 div.pageblock{
+	background: url('images/chapter2.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter3 div.pageblock{
+	background: url('images/chapter3.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter4 div.pageblock{
+	background: url('images/chapter4.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter5 div.pageblock{
+	background: url('images/chapter5.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter6 div.pageblock{
+	background: url('images/chapter6.jpg') no-repeat;
+	background-size: cover;
 }
 
 .homepage-posts {
 	float: left;
-	max-width: 800px;
-}
-
-.homepage-sidebar {
-	float:left;
-	width: 200px;
-	background: white;
-	min-height: 500px;
-	margin-top: 20px;
-    border-radius: 5px;
-    border: solid 1px #86c6dd;
-	display: block;
-	padding: 20px;
+	min-width: 100%;
 }
 
 .pageblock:hover {
@@ -42,29 +86,18 @@ div#homepage-content{
 .pageblock {
 	width: calc(50% - 10px);
 	min-height: 300px;
+	border: 1px black solid;
 	background-color: #dedede;
-    border-radius: 5px;
-    border: solid 1px #86c6dd;	display: block;
 	float: left;
-	margin: 5px;
 	background-size: cover !important;
 	opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-}
-
-div#posts {
-	padding: 15px;
-}
-
-.shadow {
-   -moz-box-shadow:    inset 0 0 10px  #86c6dd;;
-   -webkit-box-shadow: inset 0 0 10px  #86c6dd;;
-   box-shadow:         inset 0 0 10px  #86c6dd;;
+	min-width: 50%;
+	width: 50%;
 }
 
 .brickmenuimg {
     height: 120px;
-    border-radius: 5px;
     overflow: hidden;
     width: auto;
     margin-bottom: 0;
@@ -72,6 +105,12 @@ div#posts {
 
 .brickcontent {
 	padding: 20px;
+}
+
+div#wikifaq{
+	width:100%;
+	height: 250px;
+	background: red;
 }
 
 /*
@@ -940,26 +979,6 @@ footer.comment-footer:after,
 /*--------------------------------------------------------------
 # Heading
 --------------------------------------------------------------*/
-
-.site-header {
-	background-color: rgba(36,38,41,0.8);
-	color: #fff;
-	display: table;
-	left: 0;
-	min-height: 90px;
-	padding: 15px 40px;
-	position: fixed;
-	right: 0;
-	text-shadow: 0 0 3px rgba(0,0,0,0.3);
-	top: 0;
-	width: 100%;
-	z-index: 5;
-}
-
-.home .site-header,
-.blog .site-header {
-	background-color: rgba(36,38,41,0.4);
-}
 
 .admin-bar .site-header,
 .admin-bar.is-singular .site-header {

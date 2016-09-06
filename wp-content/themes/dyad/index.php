@@ -37,35 +37,26 @@ get_header(); ?>
 		<div id="homepage-content">
 			<div id="homepage-inner-content">
 				<?php if ( $pages ) : ?>
-
-					<div id="posts" class="posts homepage-posts" style="padding: 15px">
-
+					
+					<div id="posts" class="posts homepage-posts">
+						<?php
+						$counter = 1;
+						?>
 						<?php /* Start the Loop */ ?>
 						<?php foreach($pages as &$page){ ?>
-						
-
-						<?php
-						$thumb = $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'large' );
-						?>
-						<a href="<?php echo get_page_link( $page->ID )?>">
-							<div class = "pageblock shadow">
-								<div class="brickmenuimg" style="background: #dedede url('<?php echo $thumb[0]?>') no-repeat bottom left";></div>
-								<div class="brickcontent">
-									<h3><?php
-										echo $page->post_title
-									?></h3>
-								</div>
+						<a href="<?php echo get_page_link( $page->ID )?>" class="<?php echo "chapter".$counter?>">
+							<div class = "pageblock">
 							</div>
 						</a>
 
-						<?php }?>
-
+						<?php $counter++; }?>
 					</div><!-- .posts -->
 
-					<div class="homepage-sidebar shadow">
+						<div id="wikifaq"></div>
+					<!--<div class="homepage-sidebar shadow">
 						<h3>Wiki</h3>
 						<h3>FAQs</h3>
-					</div><!-- .homepage-sidebar -->
+					</div>-->
 
 					<?php the_posts_navigation(); ?>
 
