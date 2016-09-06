@@ -100,15 +100,17 @@ div#homepage-content{
 }
 
 .pageblock {
-	width: calc(50% - 10px);
 	min-height: 200px;
 	background-color: #dedede;
 	float: left;
-	background-size: cover !important;
 	opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-	min-width: 50%;
 	width: 50%;
+}
+
+#wikilink.pageblock {
+	background: url('images/faqs-min.jpg') no-repeat;
+	width: 100%;
 }
 
 .pageblock-label {

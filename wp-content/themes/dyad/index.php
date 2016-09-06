@@ -52,6 +52,11 @@ get_header(); ?>
 
 						<?php $counter++; }?>
 						
+						<a href="#" class="chapter7" >
+							<div class = "pageblock" id="wikilink">
+								<h3 class="pageblock-label">FAQ's / WIKI</h3>
+							</div>
+						</a>
 					</div><!-- .posts -->
 					<?php the_posts_navigation(); ?>
 
