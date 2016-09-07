@@ -41,9 +41,12 @@
 				?>
 
 				<div class="site-info">
+					2016 &copy; All Rights Reserved
+					<span class="sep"> | </span>
 					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'dyad' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'dyad' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'dyad' ), 'Dyad', '<a href="http://wordpress.com/themes/dyad/" rel="designer">WordPress.com</a>' ); ?>
+					<a href="http://ayoayco.com" target="_blank">Development by <span style="text-decoration: underline">Ayo</span></a>
+					<!--<?php /*printf( esc_html__( 'Theme: %1$s by %2$s.', 'dyad' ), 'Dyad', '<a href="http://wordpress.com/themes/dyad/" rel="designer">WordPress.com</a>' );*/ ?>-->
 				</div><!-- .site-info -->
 			</div><!-- .footer-bottom-info -->
 
