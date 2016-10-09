@@ -19,7 +19,7 @@ get_header(); ?>
 		'sort_order' => 'asc',
 		'sort_column' => 'ID',
 		'hierarchical' => 1,
-		'include' => '4, 6, 8, 10, 12, 14, 250, 252',
+		'include' => '4, 6, 8, 10, 12, 14, 250',
 		'meta_key' => '',
 		'meta_value' => '',
 		'authors' => '',
@@ -51,6 +51,12 @@ get_header(); ?>
 
 						<?php $counter++; }?>
 						
+						<a href="http://tobaccointerference.org/wiki" class="<?php echo "chapter".$counter?>">
+							<div class = "pageblock">
+								<h3 class="pageblock-label">Wiki: TOBACCO INDUSTRY DATABASE</h3>
+							</div>
+						</a>
+
 						<a href="./faqs" class="chapter7" >
 							<div class = "pageblock" id="wikilink">
 								<h3 class="pageblock-label">FAQ's / WIKI</h3>
