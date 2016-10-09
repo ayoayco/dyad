@@ -51,7 +51,7 @@ get_header(); ?>
 
 						<?php $counter++; }?>
 						
-						<a href="http://tobaccointerference.org/wiki" class="<?php echo "chapter".$counter?>">
+						<a href="./wiki" class="<?php echo "chapter".$counter?>">
 							<div class = "pageblock">
 								<h3 class="pageblock-label">Wiki: TOBACCO INDUSTRY DATABASE</h3>
 							</div>
