@@ -2780,10 +2780,12 @@ ol.children .author.vcard {
 
 .posts-navigation .nav-previous {
 	float: left;
+	display: none;
 }
 
 .posts-navigation .nav-next {
 	float: right;
+	display: none;
 }
 
 /*--------------------------------------------------------------
