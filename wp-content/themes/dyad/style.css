@@ -2748,6 +2748,11 @@ ol.children .author.vcard {
 	text-align: center;
 }
 
+
+.posts-navigation {
+	display: none;
+}
+
 #infinite-handle span {
 	background: transparent;
 	display: inline-block;
