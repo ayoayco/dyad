@@ -77,6 +77,17 @@ div#homepage-content{
 	background: url('images/blue/Chapter4_blue-min.jpg') no-repeat center center;
 	background-size: cover;
 }
+
+
+.homepage-posts a.chapter5 div.pageblock{
+	background: url('images/chapter5-min.jpg') no-repeat;
+	background-size: cover;
+}
+.homepage-posts a.chapter6 div.pageblock{
+	background: url('images/chapter6-min.jpg') no-repeat;
+	background-size: cover;
+}
+/*
 .homepage-posts a.chapter5 div.pageblock{
 	background: url('images/blue/Chapter5_blue-min.jpg') no-repeat center center;
 	background-size: cover;
@@ -84,7 +95,8 @@ div#homepage-content{
 .homepage-posts a.chapter6 div.pageblock{
 	background: url('images/blue/Chapter6_blue-min.jpg') no-repeat center center;
 	background-size: cover;
-}
+}*/
+
 .homepage-posts a.chapter7 div.pageblock{
 	background: url('images/blue/Chapter7_blue-min.jpg') no-repeat center center;
 	background-size: cover;
