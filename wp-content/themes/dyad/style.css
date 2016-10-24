@@ -62,39 +62,39 @@ div#homepage-content{
 }
 
 .homepage-posts a.chapter1 div.pageblock{
-	background: url('images/chapter1-min.jpg') no-repeat;
+	background: url('images/blue/Chapter1_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter2 div.pageblock{
-	background: url('images/chapter2-min.jpg') no-repeat;
+	background: url('images/blue/Chapter2_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter3 div.pageblock{
-	background: url('images/chapter3-min.jpg') no-repeat;
+	background: url('images/blue/Chapter3_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter4 div.pageblock{
-	background: url('images/chapter4-min.jpg') no-repeat;
+	background: url('images/blue/Chapter4_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter5 div.pageblock{
-	background: url('images/chapter5-min.jpg') no-repeat;
+	background: url('images/blue/Chapter5_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter6 div.pageblock{
-	background: url('images/chapter6-min.jpg') no-repeat;
+	background: url('images/blue/Chapter6_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter7 div.pageblock{
-	background: url('images/chapter7-min.jpg') no-repeat;
+	background: url('images/blue/Chapter7_blue.jpg') no-repeat;
 	background-size: cover;
 }
 .homepage-posts a.chapter8 div.pageblock{
-	background: url('images/chapter8-min.jpg') no-repeat;
+	background: url('images/blue/Chapter8_blue.jpg') no-repeat;
 	background-size: cover;
 }
 #wikilink.pageblock {
-	background: url('images/faqs-min.jpg') no-repeat;
+	background: url('images/blue/Chapter9_blue.jpg') no-repeat;
 	background-size: cover;
 	width: 100%;
 }
