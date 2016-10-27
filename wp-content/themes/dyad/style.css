@@ -26,6 +26,7 @@ main#primary {
 .banner-custom-header .site-banner-header h1 {
 	font-family: 'Mohave', Arial, sans-serif;
 	font-size: 48px !important;
+	text-shadow: 1px 1px 4px #000000;
 }
 
 .site-banner-inner {
@@ -1309,6 +1310,7 @@ footer.comment-footer:after,
 .site-banner .site-description {
 	clip: auto;
 	position: static;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 .site-banner p {
