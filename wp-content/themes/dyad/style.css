@@ -2155,7 +2155,8 @@ body:not(.has-post-thumbnail).is-singular .entry-inner,
 
 .has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header h1,
 .has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header a {
-	color: #fff;
+    color: #f0e68c;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 .is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-meta {
