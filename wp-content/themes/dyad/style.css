@@ -2972,6 +2972,7 @@ object {
 
 .footer-bottom-info.has-social-menu .social-links {
 	float: right;
+	display: none;
 }
 
 .is-singular.has-post-thumbnail .footer-bottom-info.has-social-menu .site-info,
