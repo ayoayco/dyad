@@ -14,9 +14,12 @@ main#primary {
 	width: 100%;
 }
 
+.table-links{
+	border: none
+}
 .table-links td{
 	border: none;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 .site-description {
