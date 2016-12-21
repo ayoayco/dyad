@@ -14,6 +14,11 @@ main#primary {
 	width: 100%;
 }
 
+.table-links td{
+	border: none;
+	vertical-align: center;
+}
+
 .site-description {
 	font-family: 'Mohave', Arial, sans-serif;
 	font-size: 35px;
